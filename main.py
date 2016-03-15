@@ -1,8 +1,8 @@
 import os
 import glob
 import time
-from lib\lcd1602 import LCD1602
-import lib\temp
+from lib/lcd1602 import LCD1602
+from lib import temp
 
 os.system('modprobe w1-gpio')
 os.system('modprobe w1-therm')
